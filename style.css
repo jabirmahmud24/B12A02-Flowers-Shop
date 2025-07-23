@@ -8,22 +8,16 @@
 .holud {
   color: #e95a08;
 }
-.title {
-  font-size: 1.5rem;
+.title h3 {
+  /* font-size: 1.5rem; */
   font-weight: 700;
   font-family: "Noto Serif", serif;
-}
-.title-large {
-  font-size: 4rem;
-  font-weight: 700;
-  font-family: "Noto Serif", serif;
-}
-.title-para {
-  font-size: 0.88rem;
-  color: #00000050;
 }
 
-@import "tailwindcss";
+.title-para {
+  /* font-size: 0.88rem; */
+  color: #00000050;
+}
 
 .btn {
   background-color: #e95a08;
@@ -34,3 +28,17 @@
   padding: 1.1rem 1.75rem;
   cursor: pointer;
 }
+
+@import "tailwindcss";
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        notoserif: ['"Noto Serif"', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+};
+
+
