@@ -1,0 +1,21 @@
+* {
+  font-family: "Inter", sans-serif;
+  background-color: #f8f8fc;
+  /* max-width: 1140px; */
+  /* margin: auto; */
+}
+
+.holud {
+  color: #e95a08;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+}
+.title-para {
+  font-size: 0.88rem;
+  color: #00000050;
+}
+
+@import "tailwindcss";
