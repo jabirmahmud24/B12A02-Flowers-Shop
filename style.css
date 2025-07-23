@@ -24,3 +24,13 @@
 }
 
 @import "tailwindcss";
+
+.btn {
+  background-color: #e95a08;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  padding: 1.1rem 1.75rem;
+  cursor: pointer;
+}
