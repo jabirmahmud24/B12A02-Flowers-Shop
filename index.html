@@ -32,7 +32,7 @@
     <!-- CSS STYLE -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="bg-[#d2d2fb45]">
     <header class="max-w-screen m-auto">
       <nav class="flex justify-between items-center mx-4">
         <img src="./assets/logo.png" alt="" />
@@ -209,7 +209,7 @@
         </div>
       </section>
       <!-- Plants Lover Section -->
-       <section class="mt-10 mx-4 sm:flex gap-5 md:gap-x-10 md:mt-20 lg:gap-15">
+       <section class="mt-10 mx-4 sm:flex sm:items-center xl:mx-auto xl:items-center gap-5 md:gap-x-10 md:mt-20 lg:gap-15 xl:justify-around">
         <!-- Small Device -->
          <div class="relative inline-block">
           <img class="mb-5 w-full object-cover" src="./assets/flower-store.png" alt="Flower Store">
@@ -230,8 +230,8 @@
             </ul>
           </div>
           <!-- Large Device Text -->
-          <div class="hidden sm:bg-red-400 sm:max-w-[34rem] sm:flex sm:flex-col">
-            <div class="title sm:bg-red-400">
+          <div class="hidden sm:max-w-[34rem] sm:flex sm:flex-col">
+            <div class="title">
             <h3 class="font-natoserif text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
               Flower & Plants <br> Lover
             </h3>
@@ -239,10 +239,81 @@
             <ul class="list-disc pl-6 text-[#00000050]">
               <li class="mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
               <li class="py-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-              <li class="hidden md:block">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+              <li class="hidden lg:block">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
             </ul>
           </div>
        </section>
+       <!-- Latest Deals -->
+        <section class="mt-20 mx-auto flex flex-col justify-center">
+        <!-- Latest Deals Section Text & Title -->
+        <div class="flex flex-col justify-center m-auto items-center mb-7 max-w-80 sm:max-w-96 md:max-w-[30rem]  lg:max-w-4xl">
+          <div class="title">
+            <h3 class="sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"><span class="holud"> Latest</span> Deals</h3>
+          </div>
+          <p class="title-para">
+            <div class="mt-4 lg:mt-8 lg:mb-8 lg:text-2xl title-para">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+            </div>
+          </p>
+        </div>
+            <!-- Overlay Image under Latest Deals Section -->
+        <div class="bg-transparent">
+        
+          <div class="p-4 lg:p-6 max-w-7xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-4">
+
+        <div class="bg-transparent flex flex-col gap-4 lg:w-1/3">
+
+            <div class="relative h-52 rounded-xl overflow-hidden shadow-lg">
+                <img src="./assets/deal-bloom.png" alt="Bloom Plant" class="absolute h-full w-full object-cover -z-10">
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div class="relative h-full flex flex-col justify-center items-center text-white text-center p-4">
+                    <h2 class="text-3xl font-bold">60% Off | Bloom Plant</h2>
+                    <a href="#" class="mt-2 text-lg underline underline-offset-4 hover:opacity-80 transition-opacity">Shop Now</a>
+                </div>
+            </div>
+
+            <div class="relative h-52 rounded-xl overflow-hidden shadow-lg">
+                <img src="./assets/deal-ana.png" alt="Ana Plant" class="absolute h-full w-full object-cover -z-10">
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div class="relative h-full flex flex-col justify-center items-center text-white text-center p-4">
+                    <h2 class="text-3xl font-bold">30% Off | Ana Plant</h2>
+                    <a href="#" class="mt-2 text-lg underline underline-offset-4 hover:opacity-80 transition-opacity">Shop Now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="lg:w-2/3">
+
+            <div class="relative h-52 lg:h-full rounded-xl overflow-hidden shadow-lg">
+                <img src="./assets/deal-zabo.png" alt="Zabo Plant" class="absolute h-full w-full object-cover -z-10">
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div class="relative h-full flex flex-col justify-center items-center text-white text-center p-4">
+                    <h2 class="text-4xl font-bold">25% Off | Zabo Plant</h2>
+                    <a href="#" class="mt-2 text-lg underline underline-offset-4 hover:opacity-80 transition-opacity">Shop Now</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+        </div>
+      </div>
+        </section>
+
+
+
+
+
+
+        <!-- Scrren Choto tai Debuging Visibility Helper -->
+        <p class="text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor quae fuga aliquam ea nesciunt nemo quam sint, fugiat eaque in quia magnam ipsa dignissimos nisi laudantium! Itaque laborum harum cum doloremque sint consequatur sapiente eveniet ipsam, et praesentium, accusamus inventore eius autem iste quod quam ad distinctio fugit quaerat tempora dolorem iusto dignissimos. Dolore, voluptas cupiditate, incidunt dolor officiis tenetur dignissimos repudiandae vitae voluptate nesciunt temporibus quidem odio eaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam neque voluptates harum consectetur delectus minima a, veniam provident cum velit architecto, error eos. Nesciunt tenetur eveniet quia alias. Alias illo quam omnis minima, quos voluptate mollitia consequatur doloremque placeat, ex neque. Asperiores ut culpa cupiditate consequuntur ipsa itaque beatae ullam debitis cum perferendis optio, accusantium sed ipsam aliquid sint dicta, numquam ducimus odit libero sunt corporis. Nostrum magni voluptas sit nulla quibusdam nemo amet ipsam quidem minima, dolor id quas ipsum atque enim molestias corrupti reiciendis eaque velit corporis libero veritatis dignissimos! Dolorem aperiam sit distinctio, similique, explicabo veniam earum iure et sapiente maxime cum nisi. Mollitia, natus a eligendi quis accusantium deserunt laboriosam dolorem vero ea molestiae suscipit! Omnis cum impedit, voluptatum dolore itaque, nobis doloremque officiis ab non cupiditate unde voluptatem repellendus animi sunt esse sit magnam assumenda natus, neque provident accusantium eaque commodi tenetur? Non, laborum optio ratione quis soluta distinctio obcaecati quod nemo, quae voluptatibus architecto expedita excepturi cupiditate! Quam ipsa cum perspiciatis est minima nam tempore aliquid iure aut, corporis hic rerum fugiat itaque aliquam iusto tempora mollitia voluptatem veniam asperiores nostrum! Porro quidem deserunt impedit nulla adipisci perferendis eum recusandae, doloremque quasi reiciendis nesciunt.
+        </p>
+
     </main>
     <footer></footer>
   </body>
