@@ -5,6 +5,8 @@
   /* margin: auto; */
 }
 
+@import "tailwindcss";
+
 .holud {
   color: #e95a08;
 }
@@ -28,17 +30,20 @@
   padding: 1.1rem 1.75rem;
   cursor: pointer;
 }
-
+@layer utilities {
+  .slow-spin {
+    animation-duration: 5s;
+  }
+}
+/* 
 @import "tailwindcss";
 module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        notoserif: ['"Noto Serif"', 'serif'],
+        notoserif: ['Noto Serif', 'serif'],
       },
     },
   },
   plugins: [],
-};
-
-
+}; */
