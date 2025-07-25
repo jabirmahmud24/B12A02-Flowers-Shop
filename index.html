@@ -127,7 +127,7 @@
           </p>
         </div>
         <!-- Cards -->
-        <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+        <div class="cards-section grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
           <!-- Card 1 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
             <img src="./assets/sample-flower-image.png" alt="Product 1" />
@@ -136,7 +136,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 2 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -146,7 +146,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 3 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -156,7 +156,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 4 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -166,7 +166,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 5 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -176,7 +176,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 6 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -186,7 +186,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 7 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -196,7 +196,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
           <!-- Card 8 -->
           <div class="max-w-72 flex flex-col justify-center items-center">
@@ -206,9 +206,9 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
-          <!-- Card 9 ONLY FOR TABLET -->
+          <!-- Card 9 ONLY FOR TABLET VIEW -->
           <div class="hidden md:max-w-72 md:flex md:flex-col md:justify-center md:items-center lg:hidden">
             <img src="./assets/sample-flower-image.png" alt="Product 1" />
             <div class="my-7 flex flex-col justify-center items-center">
@@ -216,7 +216,7 @@
               <h5 class="font-bold">20 USD</h5>
             </div>
 
-            <button class="btn">ADD TO CART</button>
+            <button onclick="added()" class="btn">ADD TO CART</button>
           </div>
         </div>
       </section>
@@ -324,8 +324,8 @@
                 <div class="relative h-full flex flex-col justify-center items-center text-white text-center p-4">
                   <div class="relative">
                     <h2 class="font-natoserif text-4xl font-semibold mb-4 justify-center">Join The Colorful Bunch</h2>
-                    <input class="border-0 h-[50px] bg-white w-[100%]  py-2 pr-0 text-[1rem]" type="text" placeholder="Write Email">
-                    <button class="bg-[#E95A08] h-[50px] px-4 border-0 absolute left-[73%]">Subscribe</button>
+                    <input class="border-0 h-[50px] bg-white text-gray-400 w-[100%]  py-4 pl-4 pr-0 text-[1rem]" type="text" placeholder="Write Email">
+                    <button onclick="tnxSubs ()" class="bg-[#E95A08] h-[50px] px-4 border-0 absolute left-[73%]">Subscribe</button>
                     </div>
                 </div>
          </section>
@@ -382,7 +382,16 @@
       </div>
 
     </footer>
-    <p class="text-gray-400 flex justify-center mt-36">&copy; ALL RIGHTS RESERVED </p>
+    <p class="text-gray-400 flex justify-center mt-36">&copy; ALL RIGHTS RESERVED by PROGRAMING HERO</p>
+
+    <script>
+      function added () {
+        alert ("Flower Added to Cart");
+      }
+      function tnxSubs () {
+        alert ("Thanks For your Subscription");
+      }
+    </script>
 
   </body>
 </html>
